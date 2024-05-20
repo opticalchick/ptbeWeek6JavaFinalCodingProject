@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Deck {
 
-	//encapsultion  and building the deck of cards using StringBuilder with card names and suits
+	//encapsulation  and building the deck of cards using StringBuilder with card names and suits
 	private List<Card> cards = new ArrayList<Card>();
 	private	List<String> suits = Arrays.asList("Diamonds", "Hearts", "Clubs", "Spades");
 	private List<String> names = Arrays.asList("Two", "Three", "Four", "Five", "Six", "Seven", "Eight",
